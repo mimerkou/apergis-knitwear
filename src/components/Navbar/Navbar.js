@@ -38,7 +38,7 @@ const Navbar = (props) => {
       <Nav scrollNav={scrollNav}>
         <NavbarContainer>
           <NavLogo to="/" onClick={toggleHome}>
-            <Logo>Apergis Knitwear</Logo>
+            <Logo scrollNav={scrollNav}>Apergis Knitwear</Logo>
           </NavLogo>
 
           <MobileIcon onClick={toggle}>
@@ -48,7 +48,8 @@ const Navbar = (props) => {
           <NavMenu>
             <NavItem>
               <NavLinks
-                to="home"
+                scrollNav={scrollNav}
+                to="hero"
                 activeClass="active"
                 spy={true}
                 smooth={true}
@@ -59,6 +60,7 @@ const Navbar = (props) => {
             </NavItem>
             <NavItem>
               <NavLinks
+                scrollNav={scrollNav}
                 to="about"
                 activeClass="active"
                 spy={true}
@@ -70,6 +72,7 @@ const Navbar = (props) => {
             </NavItem>
             <NavItem>
               <NavLinks
+                scrollNav={scrollNav}
                 to="services"
                 activeClass="active"
                 spy={true}
@@ -81,6 +84,7 @@ const Navbar = (props) => {
             </NavItem>
             <NavItem>
               <NavLinks
+                scrollNav={scrollNav}
                 to="contact"
                 activeClass="active"
                 spy={true}

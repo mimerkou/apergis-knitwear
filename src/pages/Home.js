@@ -3,6 +3,7 @@ import { useLocation } from 'react-router-dom';
 import Sidebar from '../components/Sidebar/Sidebar';
 import Navbar from '../components/Navbar/Navbar';
 import Hero from '../components/Hero/Hero';
+import About from '../components/About/About';
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -22,6 +23,7 @@ const Home = () => {
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
       <Hero />
+      <About />
     </>
   );
 };
