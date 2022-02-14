@@ -46,7 +46,7 @@ export const SidebarLink = styled(LinkScroll)`
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 2.4rem;
+  font-size: 2rem;
   text-decoration: none;
   list-style: none;
   text-decoration: none;
@@ -56,7 +56,8 @@ export const SidebarLink = styled(LinkScroll)`
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 
-  &:hover {
+  &:hover,
+  &.active {
     color: #c59d5f;
     transition: all 0.3s ease-in-out;
   }

@@ -20,7 +20,8 @@ const Sidebar = (props) => {
       <SidebarWrapper>
         <SidebarMenu>
           <SidebarLink
-            to="home"
+            to="hero"
+            activeClass="active"
             spy={true}
             smooth={true}
             offset={-80}
@@ -30,27 +31,30 @@ const Sidebar = (props) => {
           </SidebarLink>
           <SidebarLink
             to="about"
+            activeClass="active"
             spy={true}
             smooth={true}
-            offset={-70}
+            offset={-80}
             onClick={toggle}
           >
             Εταιρεια
           </SidebarLink>
           <SidebarLink
             to="services"
+            activeClass="active"
             spy={true}
             smooth={true}
-            offset={-70}
+            offset={-80}
             onClick={toggle}
           >
             Υπηρεσιες
           </SidebarLink>
           <SidebarLink
             to="contact"
+            activeClass="active"
             spy={true}
             smooth={true}
-            offset={-70}
+            offset={-80}
             onClick={toggle}
           >
             Επικοινωνια

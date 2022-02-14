@@ -59,7 +59,7 @@ export const MobileIcon = styled.div`
     right: 0;
     transform: translate(-100%, 60%);
     font-size: 2.9rem;
-    color: #fff;
+    color: ${({ scrollNav }) => (scrollNav ? '#252525' : '#fff')};
     cursor: pointer;
   }
 `;

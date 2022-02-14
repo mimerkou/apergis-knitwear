@@ -41,7 +41,7 @@ const Navbar = (props) => {
             <Logo scrollNav={scrollNav}>Apergis Knitwear</Logo>
           </NavLogo>
 
-          <MobileIcon onClick={toggle}>
+          <MobileIcon onClick={toggle} scrollNav={scrollNav}>
             <FaBars />
           </MobileIcon>
 
