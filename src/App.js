@@ -4,6 +4,10 @@ import Sidebar from './components/Sidebar/Sidebar';
 import Navbar from './components/Navbar/Navbar';
 import Home from './pages/Home';
 
+import AOS from 'aos';
+
+AOS.init();
+
 const App = () => {
   const [isOpen, setIsOpen] = useState(false);
 
