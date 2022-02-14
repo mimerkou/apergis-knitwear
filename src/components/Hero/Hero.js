@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from '../Button/Button';
 import './Hero.css';
 
 const Hero = () => {
@@ -19,9 +20,9 @@ const Hero = () => {
           </div>
           <div className="single-animation">
             <h5>Βιοτεχνια Πλεκτων Ενδυματων</h5>
-            {/* <a href="#about" className="btn cta-btn">
+            <Button path="about" darkBg={true}>
               Η εταιρεια μας
-            </a> */}
+            </Button>
           </div>
         </div>
       </div>

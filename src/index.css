@@ -40,3 +40,9 @@ p {
   margin: 0 auto;
   padding: 0 2.4rem;
 }
+
+@media screen and (min-width: 900px) {
+  section {
+    padding: 7.9rem;
+  }
+}
