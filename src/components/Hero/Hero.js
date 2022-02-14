@@ -19,9 +19,9 @@ const Hero = () => {
           </div>
           <div className="single-animation">
             <h5>Βιοτεχνια Πλεκτων Ενδυματων</h5>
-            <a href="#about" className="btn cta-btn">
+            {/* <a href="#about" className="btn cta-btn">
               Η εταιρεια μας
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
