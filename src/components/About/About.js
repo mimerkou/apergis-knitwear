@@ -24,11 +24,7 @@ const About = () => {
                 <i className="fas fa-asterisk"></i>
               </div>
             </div>
-            <p
-              data-aos="fade-right"
-              data-aos-duration="1000"
-              data-aos-once="true"
-            >
+            <p data-aos="zoom-in" data-aos-duration="1000" data-aos-once="true">
               Καλώς ήλθατε στην ιστοσελίδα της Βιοτεχνίας Πλεκτών Ενδυμάτων του
               Γιώργου και Λευτέρη Απέργη. Η εταιρεία μας εδρεύει στην Νέα Ιωνία
               Αττικής και δραστηριοποιείται στην παραγωγή ενδυμάτων υψηλής
@@ -36,11 +32,7 @@ const About = () => {
               διάφορα μοντέρνα σχέδια και χρώματα.
             </p>
             <br />
-            <p
-              data-aos="fade-right"
-              data-aos-duration="1000"
-              data-aos-once="true"
-            >
+            <p data-aos="zoom-in" data-aos-duration="1000" data-aos-once="true">
               Η βιοτεχνία μας ιδρύθηκε το 1980 και ως τις μέρες μας διακρίνεται
               για την εξαιρετική ραφή και ποιότητα των ρούχων της. Προσφέρουμε
               χονδρική και λιανική πώληση των πλεκτών μας. Στον χώρο της
@@ -59,7 +51,7 @@ const About = () => {
           </div>
           <div
             className="company-info-img animate-right"
-            data-aos="fade-left"
+            data-aos="zoom-in"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="1000"
             data-aos-once="true"

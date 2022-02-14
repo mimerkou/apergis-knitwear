@@ -11,3 +11,7 @@
   display: flex;
   align-items: center;
 }
+
+.creations-sub-headline span {
+  line-height: 14rem;
+}

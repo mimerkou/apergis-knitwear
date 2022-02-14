@@ -7,9 +7,9 @@ const Creations = () => {
       <div className="container">
         <div className="global-headline">
           <div className="animate-top">
-            <h2 className="sub-headline">
-              <span className="first-letter">A</span>pergis
-              <span className="first-letter">K</span>nitwear
+            <h2 className="sub-headline creations-sub-headline">
+              <span className="first-letter">A</span>pergis Knitwear
+              {/* <span className="first-letter">K</span>nitwear */}
             </h2>
           </div>
           <div className="animate-bottom">
