@@ -4,6 +4,7 @@ import Sidebar from '../components/Sidebar/Sidebar';
 import Navbar from '../components/Navbar/Navbar';
 import Hero from '../components/Hero/Hero';
 import About from '../components/About/About';
+import Creations from '../components/Creations/Creations';
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -24,6 +25,7 @@ const Home = () => {
       <Navbar toggle={toggle} />
       <Hero />
       <About />
+      <Creations />
     </>
   );
 };
