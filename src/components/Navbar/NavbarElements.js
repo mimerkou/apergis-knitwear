@@ -7,7 +7,7 @@ export const Nav = styled.nav`
   height: 8rem;
   margin-top: -8rem;
   box-shadow: ${({ scrollNav }) =>
-    scrollNav ? '0 0 5px rgba(197, 157, 95, 0.9)' : 'transparent'};
+    scrollNav ? '0 1px 1px rgba(197, 157, 95, 0.95)' : 'transparent'};
   display: flex;
   justify-content: center;
   align-items: center;

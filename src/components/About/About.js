@@ -9,7 +9,7 @@ const About = () => {
       <div className="container">
         <div className="company-info">
           <div className="company-description padding-right animate-left">
-            <div className="global-headline">
+            <div className="global-headline company-headline">
               <h2 className="sub-headline">
                 <span className="first-letter">I</span>nfo
               </h2>
