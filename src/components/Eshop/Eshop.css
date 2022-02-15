@@ -1,0 +1,29 @@
+.eshop {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url('../../assets/image11.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.eshop-btn {
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-right: -2px;
+  cursor: pointer;
+
+  font-size: 1.3rem;
+  color: #fff;
+  background-color: #c59d5f;
+  padding: 1.5rem 2.5rem;
+  margin: 2rem;
+  border-radius: 0.4rem;
+  transition: all 0.5s;
+}
+
+.eshop-btn:hover,
+.eshop-btn:focus {
+  background-color: #fff;
+  color: #515151;
+}

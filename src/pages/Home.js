@@ -6,6 +6,7 @@ import Hero from '../components/Hero/Hero';
 import About from '../components/About/About';
 import Creations from '../components/Creations/Creations';
 import Services from '../components/Services/Services';
+import Eshop from '../components/Eshop/Eshop';
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -28,6 +29,7 @@ const Home = () => {
       <About />
       <Creations />
       <Services />
+      <Eshop />
     </>
   );
 };
