@@ -23,6 +23,7 @@ const Eshop = () => {
               href="https://www.nithoknit.gr/"
               className="eshop-btn"
               target="_blank"
+              rel="noreferrer"
             >
               Eshop
             </a>
