@@ -1,5 +1,4 @@
 import React from 'react';
-import Button from '../Button/Button';
 import { Link } from 'react-scroll';
 import './Footer.css';
 
