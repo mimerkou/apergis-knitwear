@@ -109,8 +109,7 @@
   transition: all 0.5s;
 }
 
-.input-box input.send-btn:hover,
-.input-box input.send-btn:focus {
+.input-box input.send-btn:hover {
   background-color: #252525;
 }
 

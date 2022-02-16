@@ -15,11 +15,17 @@ const Eshop = () => {
             <h1 className="headline">
               Συντομα κοντα σας και
               <br />
-              με ηλεκτρονικο καταστημα
+              το ηλεκτρονικο μας καταστημα
+              <br />
+              <span>nithoknit.gr</span>
             </h1>
-            {/* <a href="#" className="eshop-btn">
+            <a
+              href="https://www.nithoknit.gr/"
+              className="eshop-btn"
+              target="_blank"
+            >
               Eshop
-            </a> */}
+            </a>
           </div>
         </div>
       </div>

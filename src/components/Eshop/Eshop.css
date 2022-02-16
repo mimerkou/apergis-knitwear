@@ -6,6 +6,11 @@
   background-attachment: fixed;
 }
 
+.headline span {
+  font-weight: 400;
+  letter-spacing: 1rem;
+}
+
 .eshop-btn {
   display: inline-block;
   text-transform: uppercase;
@@ -22,8 +27,7 @@
   transition: all 0.5s;
 }
 
-.eshop-btn:hover,
-.eshop-btn:focus {
+.eshop-btn:hover {
   background-color: #fff;
   color: #515151;
 }

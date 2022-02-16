@@ -178,7 +178,7 @@ const Contact = () => {
                     {success && (
                       <p
                         style={{
-                          color: 'green',
+                          color: '#c59d5f',
                           fontSize: '1.5rem',
                           marginTop: '2rem',
                         }}
@@ -213,19 +213,19 @@ const Contact = () => {
                 <span>
                   <i className="fa-solid fa-envelope"></i>
                 </span>
-                <p>apergis-knitwear@gmail.com</p>
+                <p>apergisknitwear@gmail.com</p>
               </div>
               <div>
                 <span>
                   <i className="fa-solid fa-phone"></i>
                 </span>
-                <p>210 123 4567</p>
+                <p>+30 210 123 4567</p>
               </div>
               <div>
                 <span>
                   <i className="fa-solid fa-mobile-screen-button"></i>
                 </span>
-                <p>697 123 4567</p>
+                <p>+30 697 487 8623</p>
               </div>
             </div>
           </div>
