@@ -219,7 +219,7 @@ const Contact = () => {
                 <span>
                   <i className="fa-solid fa-phone"></i>
                 </span>
-                <p>+30 210 123 4567</p>
+                <p>+30 210 277 0294</p>
               </div>
               <div>
                 <span>

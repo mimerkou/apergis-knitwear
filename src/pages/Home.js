@@ -8,6 +8,7 @@ import Creations from '../components/Creations/Creations';
 import Services from '../components/Services/Services';
 import Eshop from '../components/Eshop/Eshop';
 import Contact from '../components/Contact/Contact';
+import Footer from '../components/Footer/Footer';
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -32,6 +33,7 @@ const Home = () => {
       <Services />
       <Eshop />
       <Contact />
+      <Footer />
     </>
   );
 };
