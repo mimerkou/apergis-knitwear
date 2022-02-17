@@ -41,7 +41,7 @@
   font-size: 1.8rem;
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 950px) {
   .company-info {
     display: flex;
     align-items: center;

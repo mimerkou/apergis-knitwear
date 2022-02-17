@@ -13,9 +13,7 @@ const Eshop = () => {
           </div>
           <div className="animate-bottom">
             <h1 className="headline">
-              Συντομα κοντα σας και
-              <br />
-              το ηλεκτρονικο μας καταστημα
+              Επισκεφτειτε το ηλεκτρονικο μας καταστημα
               <br />
               <span>nithoknit.gr</span>
             </h1>

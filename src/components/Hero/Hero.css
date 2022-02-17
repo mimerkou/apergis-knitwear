@@ -31,7 +31,7 @@
 .headline {
   color: #fff;
   font-size: 3.3rem;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Noto Serif', serif;
   text-transform: uppercase;
   font-weight: 900;
   letter-spacing: 0.5rem;
@@ -104,5 +104,13 @@
 
   .line {
     max-width: 11.4rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .headline {
+    font-size: 3rem;
+    letter-spacing: 0.4rem;
+    margin-right: -0.4rem;
   }
 }

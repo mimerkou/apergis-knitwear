@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Herr+Von+Muellerhoff&family=Source+Sans+Pro:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&family=Noto+Serif:wght@400;700&display=swap');
 
 * {
   margin: 0;
@@ -8,7 +9,7 @@
 
 html {
   font-size: 62.5%;
-  font-family: 'Cabin', sans-serif;
+  font-family: 'Comfortaa', cursive;
   color: #515151;
 }
 
@@ -43,5 +44,17 @@ p {
 @media screen and (min-width: 900px) {
   section {
     padding: 7.9rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  html {
+    font-size: 57.5%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  html {
+    font-size: 47.5%;
   }
 }
