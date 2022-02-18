@@ -3,6 +3,8 @@ import { Link } from 'react-scroll';
 import './Footer.css';
 
 const Footer = () => {
+  const year = new Date().getFullYear();
+
   return (
     <footer>
       <div className="container">
@@ -53,7 +55,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="copyright">
-            <p>Copyright &copy; 2022 Apergis Knitwear</p>
+            <p>Copyright &copy; {year} Apergis Knitwear</p>
           </div>
         </div>
       </div>
