@@ -56,6 +56,12 @@ const Footer = () => {
           </div>
           <div className="copyright">
             <p>Copyright &copy; {year} Apergis Knitwear</p>
+            <p>
+              Created with <span style={{ color: '#fff' }}>❤</span> by{' '}
+              <a className="creator" href="mailto:mimerkou@gmail.com">
+                Michalis Merkouris
+              </a>
+            </p>
           </div>
         </div>
       </div>
