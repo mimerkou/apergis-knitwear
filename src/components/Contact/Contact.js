@@ -225,7 +225,11 @@ const Contact = () => {
                 <span>
                   <i className="fa-solid fa-mobile-screen-button"></i>
                 </span>
-                <p>+30 697 487 8623</p>
+                <p>
+                  +30 697 487 8623
+                  <br />
+                  +30 697 482 4124
+                </p>
               </div>
             </div>
           </div>
