@@ -17,7 +17,7 @@ const About = () => {
               data-aos-once="true"
             >
               <h2 className="sub-headline">
-                <span className="first-letter">I</span>nfo
+                <span className="first-letter">A</span>bout
               </h2>
               <h1 className="headline headline-dark">Η εταιρεια μας</h1>
               <div className="asterisk">
