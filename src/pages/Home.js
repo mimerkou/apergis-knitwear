@@ -4,9 +4,9 @@ import Sidebar from '../components/Sidebar/Sidebar';
 import Navbar from '../components/Navbar/Navbar';
 import Hero from '../components/Hero/Hero';
 import About from '../components/About/About';
-// import Creations from '../components/Creations/Creations';
+import Creations from '../components/Creations/Creations';
 import Services from '../components/Services/Services';
-// import Eshop from '../components/Eshop/Eshop';
+import Eshop from '../components/Eshop/Eshop';
 import Contact from '../components/Contact/Contact';
 import Footer from '../components/Footer/Footer';
 
@@ -29,9 +29,9 @@ const Home = () => {
       <Navbar toggle={toggle} />
       <Hero />
       <About />
-      {/* <Creations /> */}
+      <Creations />
       <Services />
-      {/* <Eshop /> */}
+      <Eshop />
       <Contact />
       <Footer />
     </>

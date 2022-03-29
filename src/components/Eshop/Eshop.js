@@ -8,23 +8,19 @@ const Eshop = () => {
         <div className="global-headline">
           <div className="animate-top">
             <h2 className="sub-headline">
-              <span className="first-letter">S</span>hopping
+              <span className="first-letter">A</span>pergis Knitwear
             </h2>
           </div>
           <div className="animate-bottom">
-            <h1 className="headline">
-              Επισκεφτειτε το ηλεκτρονικο μας καταστημα
-              <br />
-              <span>nithoknit.gr</span>
-            </h1>
-            <a
+            <h1 className="headline">Κομψο design που ξεχωριζει</h1>
+            {/* <a
               href="https://www.nithoknit.gr/"
               className="eshop-btn"
               target="_blank"
               rel="noreferrer"
             >
               Eshop
-            </a>
+            </a> */}
           </div>
         </div>
       </div>

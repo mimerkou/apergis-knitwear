@@ -13,7 +13,7 @@ const Creations = () => {
             </h2>
           </div>
           <div className="animate-bottom">
-            <h1 className="headline">Κομψο design που ξεχωριζει</h1>
+            <h1 className="headline">Μοναδικες πλεκτες δημιουργιες</h1>
           </div>
         </div>
       </div>
