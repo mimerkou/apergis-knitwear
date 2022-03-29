@@ -207,7 +207,7 @@ const Contact = () => {
                 <span>
                   <i className="fa-solid fa-location-dot"></i>
                 </span>
-                <p>Χανιών 22 και Ομορφοκκλησιάς, Νέα Ιωνία</p>
+                <p>Χανίων 22 και Ομορφοκκλησιάς 10Β, Νέα Ιωνία</p>
               </div>
               <div>
                 <span>
@@ -219,7 +219,7 @@ const Contact = () => {
                 <span>
                   <i className="fa-solid fa-phone"></i>
                 </span>
-                <p>+30 210 277 0294</p>
+                <p>+30 210 277 7525</p>
               </div>
               <div>
                 <span>
