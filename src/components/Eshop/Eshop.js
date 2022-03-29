@@ -7,7 +7,7 @@ const Eshop = () => {
       <div className="container">
         <div className="global-headline">
           <div className="animate-top">
-            <h2 className="sub-headline">
+            <h2 className="sub-headline eshop-sub-headline">
               <span className="first-letter">A</span>pergis Knitwear
             </h2>
           </div>

@@ -6,6 +6,10 @@
   background-attachment: fixed;
 }
 
+.eshop-sub-headline span {
+  line-height: 8rem;
+}
+
 .headline span {
   font-weight: 100;
   letter-spacing: 1rem;
