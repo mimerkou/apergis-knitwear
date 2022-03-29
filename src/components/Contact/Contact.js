@@ -207,7 +207,7 @@ const Contact = () => {
                 <span>
                   <i className="fa-solid fa-location-dot"></i>
                 </span>
-                <p>Χανίων 22 και Ομορφοκκλησιάς 10Β, Νέα Ιωνία</p>
+                <p>Χανίων και Ομορφοκκλησιάς 10Β, Νέα Ιωνία</p>
               </div>
               <div>
                 <span>
