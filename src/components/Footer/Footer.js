@@ -1,9 +1,12 @@
 import React from 'react';
 import { Link } from 'react-scroll';
+import { useTranslation } from 'react-i18next';
 import './Footer.css';
 
 const Footer = () => {
   const year = new Date().getFullYear();
+
+  const { t } = useTranslation();
 
   return (
     <footer>
@@ -17,16 +20,14 @@ const Footer = () => {
           <div className="footer-content-about animate-up">
             <h4>
               Apergis Knitwear <br />
-              Βιοτεχνια πλεκτων ενδυματων
+              {t('craft')}
             </h4>
             <div className="asterisk">
               <i className="fas fa-asterisk"></i>
             </div>
             <p>
-              Με περισσότερα από 40 χρόνια εμπειρίας και ενασχόλησης στο χώρο
-              των πλεκτών ενδυμάτων, η βιοτεχνία μας διακρίνεται για την
-              εξαιρετική ραφή και την ποιότητα των ρούχων της. <br />
-              Σας ευχαριστούμε για την εμπιστοσύνη σας!
+              {t('footer_text')} <br />
+              {t('footer_trust')}
             </p>
           </div>
           <div className="social animate-bottom">

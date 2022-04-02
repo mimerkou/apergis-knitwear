@@ -1,9 +1,12 @@
 import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import emailjs from 'emailjs-com';
 import 'aos/dist/aos.css';
 import './Contact.css';
 
 const Contact = () => {
+  const { t } = useTranslation();
+
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
@@ -51,26 +54,26 @@ const Contact = () => {
     let isValid = true;
 
     if (name && email && message) {
-      success = 'Λάβαμε το μήνυμά σας. Θα επικοινωνήσουμε σύντομα.';
+      success = t('success');
       setSuccess(success);
       isValid = true;
     }
 
     if (!name) {
-      nameError.nameErr = 'Το όνομα είναι απαραίτητο.';
+      nameError.nameErr = t('name_error');
       isValid = false;
     }
 
     if (!email) {
-      emailError.emailErr = 'Το email είναι απαραίτητο.';
+      emailError.emailErr = t('email_error_1');
       isValid = false;
     } else if (!/\S+@\S+\.\S+/.test(email)) {
-      emailError.emailErr = 'Το email δεν είναι έγκυρο.';
+      emailError.emailErr = t('email_error_2');
       isValid = false;
     }
 
     if (!message) {
-      messageError.messageErr = 'Το μήνυμα είναι απαραίτητο.';
+      messageError.messageErr = t('message_error');
       isValid = false;
     }
 
@@ -93,7 +96,7 @@ const Contact = () => {
           <h2 className="sub-headline">
             <span className="first-letter">C</span>ontact
           </h2>
-          <h1 className="headline headline-dark">Επικοινωνηστε μαζι μας</h1>
+          <h1 className="headline headline-dark">{t('contact_headline')}</h1>
           <div className="asterisk">
             <i className="fas fa-asterisk"></i>
           </div>
@@ -108,15 +111,15 @@ const Contact = () => {
             <form onSubmit={sendEmailHandler}>
               <div className="form-box">
                 <div className="input-box">
-                  <h3>Φόρμα επικοινωνίας</h3>
-                  <h4>* Όλα τα πεδία είναι υποχρεωτικά</h4>
+                  <h3>{t('contact_form_heading')}</h3>
+                  <h4>{t('contact_form_required_fields')}</h4>
                 </div>
                 <div className="row100">
                   <div className="input-box">
-                    <span>Όνομα</span>
+                    <span>{t('contact_form_name')}</span>
                     <input
                       type="text"
-                      placeholder="Εισάγετε εδώ το όνομά σας"
+                      placeholder={t('name_placeholder')}
                       name="name"
                       value={name}
                       onChange={(e) => setName(e.target.value)}
@@ -135,7 +138,7 @@ const Contact = () => {
                     <span>Email</span>
                     <input
                       type="email"
-                      placeholder="Εισάγετε εδώ το email σας"
+                      placeholder={t('email_placeholder')}
                       name="email"
                       value={email}
                       onChange={(e) => setEmail(e.target.value)}
@@ -151,10 +154,10 @@ const Contact = () => {
                 </div>
                 <div className="row100">
                   <div className="input-box">
-                    <span>Μήνυμα</span>
+                    <span>{t('contact_form_message')}</span>
                     <textarea
                       rows="7"
-                      placeholder="Γράψτε εδώ το μήνυμά σας"
+                      placeholder={t('message_placeholder')}
                       name="message"
                       value={message}
                       onChange={(e) => setMessage(e.target.value)}
@@ -172,7 +175,7 @@ const Contact = () => {
                   <div className="input-box">
                     <input
                       type="submit"
-                      value="Αποστολη"
+                      value={t('send_button_text')}
                       className="send-btn"
                     />
                     {success && (
@@ -201,13 +204,13 @@ const Contact = () => {
           >
             <div className="info-box">
               <div>
-                <h3>Στοιχεία επικοινωνίας</h3>
+                <h3>{t('contact_info')}</h3>
               </div>
               <div>
                 <span>
                   <i className="fa-solid fa-location-dot"></i>
                 </span>
-                <p>Χανίων και Ομορφοκκλησιάς 10Β, Νέα Ιωνία</p>
+                <p>{t('address')}</p>
               </div>
               <div>
                 <span>
