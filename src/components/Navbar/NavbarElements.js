@@ -98,3 +98,61 @@ export const NavLinks = styled(LinkScroll)`
     transition: all 0.3s;
   }
 `;
+
+// export const FlagsContainer = styled.div`
+//   display: flex;
+//   justify-content: space-between;
+//   align-items: center;
+//   height: 80px;
+// `;
+
+// export const Greece = styled.div`
+//   width: 3rem;
+//   height: 1rem;
+//   margin: 0 2rem;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   cursor: pointer;
+// `;
+
+// export const USA = styled.div`
+//   width: 3rem;
+//   height: 1rem;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   cursor: pointer;
+// `;
+
+export const LanguagesContainer = styled.div`
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+`;
+
+export const GR = styled.p`
+  margin: 0 1.5rem 0 1rem;
+  font-size: 1.6rem;
+  color: ${({ scrollNav }) => (scrollNav ? '#252525' : '#fff')};
+  cursor: pointer;
+
+  &.active,
+  &:hover {
+    color: #c59d5f;
+    transition: all 0.3s;
+  }
+`;
+
+export const EN = styled.p`
+  font-size: 1.6rem;
+  color: ${({ scrollNav }) => (scrollNav ? '#252525' : '#fff')};
+  cursor: pointer;
+
+  &.active,
+  &:hover {
+    color: #c59d5f;
+    transition: all 0.3s;
+  }
+`;

@@ -62,3 +62,35 @@ export const SidebarLink = styled(LinkScroll)`
     transition: all 0.3s ease-in-out;
   }
 `;
+
+export const LanguagesContainer = styled.div`
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+`;
+
+export const GR = styled.p`
+  margin-right: 1.5rem;
+  font-size: 2rem;
+  color: ${({ scrollNav }) => (scrollNav ? '#252525' : '#fff')};
+  cursor: pointer;
+
+  &.active,
+  &:hover {
+    color: #c59d5f;
+    transition: all 0.3s;
+  }
+`;
+
+export const EN = styled.p`
+  font-size: 2rem;
+  color: ${({ scrollNav }) => (scrollNav ? '#252525' : '#fff')};
+  cursor: pointer;
+
+  &.active,
+  &:hover {
+    color: #c59d5f;
+    transition: all 0.3s;
+  }
+`;

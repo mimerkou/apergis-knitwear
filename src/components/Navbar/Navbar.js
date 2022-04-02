@@ -8,9 +8,14 @@ import {
   NavMenu,
   NavItem,
   NavLinks,
+  LanguagesContainer,
+  GR,
+  EN,
 } from './NavbarElements';
 import { FaBars } from 'react-icons/fa';
 import { animateScroll } from 'react-scroll';
+import { useTranslation } from 'react-i18next';
+import ChangeLanguage from '../Reusable/reusable';
 
 const Navbar = (props) => {
   const { toggle } = props;
@@ -32,6 +37,15 @@ const Navbar = (props) => {
   const toggleHome = () => {
     animateScroll.scrollToTop();
   };
+
+  const { t } = useTranslation();
+
+  // const changeLanguage = (ln) => {
+  //   return () => {
+  //     i18n.changeLanguage(ln);
+  //     console.log(`Language changed to ${ln}`);
+  //   };
+  // };
 
   return (
     <>
@@ -55,9 +69,10 @@ const Navbar = (props) => {
                 smooth={true}
                 offset={-80}
               >
-                Αρχικη
+                {t('menu_home_link')}
               </NavLinks>
             </NavItem>
+
             <NavItem>
               <NavLinks
                 scrollNav={scrollNav}
@@ -67,9 +82,10 @@ const Navbar = (props) => {
                 smooth={true}
                 offset={-80}
               >
-                Εταιρεια
+                {t('menu_about_link')}
               </NavLinks>
             </NavItem>
+
             <NavItem>
               <NavLinks
                 scrollNav={scrollNav}
@@ -79,9 +95,10 @@ const Navbar = (props) => {
                 smooth={true}
                 offset={-80}
               >
-                Υπηρεσιες
+                {t('menu_services_link')}
               </NavLinks>
             </NavItem>
+
             <NavItem>
               <NavLinks
                 scrollNav={scrollNav}
@@ -91,8 +108,30 @@ const Navbar = (props) => {
                 smooth={true}
                 offset={-80}
               >
-                Επικοινωνια
+                {t('menu_contact_link')}
               </NavLinks>
+            </NavItem>
+
+            {/* <NavItem>
+              <FlagsContainer>
+                <Greece>
+                  <img src={greeceFlag} alt="Greece Flag" />
+                </Greece>
+                <USA>
+                  <img src={usaFlag} alt="USA Flag" />
+                </USA>
+              </FlagsContainer>
+            </NavItem> */}
+
+            <NavItem>
+              <LanguagesContainer>
+                <GR scrollNav={scrollNav} onClick={ChangeLanguage('gr')}>
+                  GR
+                </GR>
+                <EN scrollNav={scrollNav} onClick={ChangeLanguage('en')}>
+                  EN
+                </EN>
+              </LanguagesContainer>
             </NavItem>
           </NavMenu>
         </NavbarContainer>
