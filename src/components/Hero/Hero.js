@@ -1,9 +1,12 @@
 import React from 'react';
 import Button from '../Button/Button';
+import { useTranslation } from 'react-i18next';
 import 'aos/dist/aos.css';
 import './Hero.css';
 
 const Hero = () => {
+  const { t } = useTranslation();
+
   return (
     <section className="hero" id="hero">
       <div className="container">
@@ -45,9 +48,9 @@ const Hero = () => {
             data-aos-delay="2000"
             data-aos-once="true"
           >
-            <h5>Βιοτεχνια Πλεκτων Ενδυματων</h5>
+            <h5>{t('craft')}</h5>
             <Button path="about" darkBg={true}>
-              Η εταιρεια μας
+              {t('about_button_text')}
             </Button>
           </div>
         </div>
