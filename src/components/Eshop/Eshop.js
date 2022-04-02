@@ -1,7 +1,10 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import './Eshop.css';
 
 const Eshop = () => {
+  const { t } = useTranslation();
+
   return (
     <section className="eshop between">
       <div className="container">
@@ -12,7 +15,7 @@ const Eshop = () => {
             </h2>
           </div>
           <div className="animate-bottom">
-            <h1 className="headline">Κομψο design που ξεχωριζει</h1>
+            <h1 className="headline">{t('eshop_text')}</h1>
             {/* <a
               href="https://www.nithoknit.gr/"
               className="eshop-btn"

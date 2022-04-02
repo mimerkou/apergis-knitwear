@@ -1,5 +1,6 @@
 import React from 'react';
 import Button from '../Button/Button';
+import { useTranslation } from 'react-i18next';
 import 'aos/dist/aos.css';
 import image05 from '../../assets/image05.jpg';
 import image06 from '../../assets/image06.jpg';
@@ -8,6 +9,8 @@ import image08 from '../../assets/image08.jpg';
 import './Services.css';
 
 const Services = () => {
+  const { t } = useTranslation();
+
   return (
     <section className="services" id="services">
       <div className="container">
@@ -56,7 +59,9 @@ const Services = () => {
               <h2 className="sub-headline">
                 <span className="first-letter">S</span>ervices
               </h2>
-              <h1 className="headline headline-dark">Οι υπηρεσιες μας</h1>
+              <h1 className="headline headline-dark">
+                {t('services_headline')}
+              </h1>
               <div className="asterisk">
                 <i className="fas fa-asterisk"></i>
               </div>
@@ -67,14 +72,7 @@ const Services = () => {
               data-aos-delay="500"
               data-aos-once="true"
             >
-              <p>
-                Η βιοτεχνία μας προσφέρει υπηρεσίες φασόν για πλεκτά ενδύματα
-                υψηλής ποιότητας. Kοπή & ραφή των σχεδίων για μοναδικές
-                δημιουργίες. Οι υπηρεσίες μας - πλέξη, κοπή, ραφή, σίδερο,
-                συσκευασία ενδυμάτων και κατασκευή δειγμάτων - παρέχονται με
-                γνώμονα την άριστη εξυπηρέτηση, την λεπτομέρεια και το
-                εμπνευσμένο στυλ, πάντα με μεράκι και αγάπη!
-              </p>
+              <p>{t('services_p1')}</p>
               <div
               // data-aos="zoom-in-up"
               // data-aos-duration="1000"
@@ -82,7 +80,7 @@ const Services = () => {
               // data-aos-once="true"
               >
                 <Button path="contact" darkBg={false}>
-                  Επικοινωνια
+                  {t('contact_button_text')}
                 </Button>
               </div>
             </div>

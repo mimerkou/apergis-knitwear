@@ -1,7 +1,10 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import './Creations.css';
 
 const Creations = () => {
+  const { t } = useTranslation();
+
   return (
     <section className="creations between">
       <div className="container">
@@ -13,7 +16,7 @@ const Creations = () => {
             </h2>
           </div>
           <div className="animate-bottom">
-            <h1 className="headline">Μοναδικες πλεκτες δημιουργιες</h1>
+            <h1 className="headline">{t('creations_text')}</h1>
           </div>
         </div>
       </div>
