@@ -25,10 +25,10 @@ const Contact = () => {
     if (isValid) {
       emailjs
         .sendForm(
-          'gmail',
-          'email_template_id',
+          'service_a4wg78t', // service id
+          'template_acjcmj4', // template id
           event.target,
-          'user_hjiXLSO3lG0J6BG4oNO4M'
+          'r4kqng7hlvW1YvTcw' // public key
         )
         .then(
           (result) => {
