@@ -90,6 +90,15 @@ footer .copyright p {
   font-size: 1.4rem;
 }
 
+footer .privacy {
+  color: #c59d5f;
+  transition: all 0.5s;
+}
+
+footer .privacy:hover {
+  color: #fff;
+}
+
 footer .creator {
   color: #c59d5f;
   transition: all 0.5s;
