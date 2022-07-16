@@ -73,6 +73,8 @@ const Services = () => {
               data-aos-once="true"
             >
               <p>{t('services_p1')}</p>
+              <br />
+              <p>{t('services_p2')}</p>
               <div
               // data-aos="zoom-in-up"
               // data-aos-duration="1000"
