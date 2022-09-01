@@ -2,10 +2,10 @@ import React from 'react';
 import Button from '../Button/Button';
 import { useTranslation } from 'react-i18next';
 import 'aos/dist/aos.css';
-import image05 from '../../assets/image05.jpg';
-import image06 from '../../assets/image06.jpg';
-import image07 from '../../assets/image07.jpg';
-import image08 from '../../assets/image08.jpg';
+import image05 from '../../assets/new_img_01.jpg'; // initial image05
+import image06 from '../../assets/new_img_02.jpg'; // initial image06
+import image07 from '../../assets/new_img_03.jpg'; // initial image07
+import image08 from '../../assets/new_img_06.jpg'; // initial image08
 import './Services.css';
 
 const Services = () => {
