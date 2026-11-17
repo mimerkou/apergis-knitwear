@@ -44,6 +44,10 @@ docs/image-credits.md      Προέλευση κάθε φωτογραφίας
 Το preview **δεν ευρετηριάζεται**: `<meta name="robots" content="noindex, nofollow">` σε κάθε σελίδα, `X-Robots-Tag` στο `_headers`, `Disallow: /` στο `robots.txt`.
 Στο launch: αφαιρέστε και τα τρία, προσθέστε `canonical`/`hreflang` με το τελικό domain και `sitemap.xml`, και ενεργοποιήστε το `_redirects`.
 
+## Social previews (Open Graph)
+Δύο εικόνες 1200×630 βασισμένες στο hero της αρχικής: `assets/img/og/apergis-og-el.jpg` (ελληνικές σελίδες) και `apergis-og-en.jpg` (σελίδες `/en/`).
+Τα `og:image` και `og:url` είναι πλήρη URLs με `https://apergis-knitwear.netlify.app`. Στο launch με δικό domain: αντικαταστήστε το σε όλα τα HTML (π.χ. find/replace) και ελέγξτε με το Facebook Sharing Debugger / LinkedIn Post Inspector.
+
 ## Γραμματοσειρές
 Προσωρινά από Google Fonts (EB Garamond, Commissioner). Πριν από το launch προτείνεται self-hosting (woff2 με ελληνικό subset).
 
