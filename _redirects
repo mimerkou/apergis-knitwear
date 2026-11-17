@@ -8,4 +8,14 @@
 # /nitho                  /dimiourgies             301
 # /contact                /epikoinonia             301
 # /privacy                /politiki-aporritou      301
-# /*-en                   /en/:splat               301   (to be mapped per page)
+# /index-en               /en/                     301
+# /services-en            /en/services             301
+# /process-en             /en/production           301
+# /yarns-en               /en/production#nimata    301
+# /nitho-en               /en/work                 301
+# /about-en               /en/about                301
+# /contact-en             /en/contact              301
+# /privacy-en             /en/privacy-policy       301
+
+# ACTIVE: English 404 for missing URLs under /en/ (existing files always win).
+/en/*  /en/404.html  404

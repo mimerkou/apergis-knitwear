@@ -1,4 +1,4 @@
-# Apergis Knitwear · Static site (Stage 7: Αρχική → Επικοινωνία + Πολιτική απορρήτου)
+# Apergis Knitwear · Static site (GR + EN)
 
 Στατικό HTML/CSS/JS, χωρίς build step. Ανοίγει τοπικά (διπλό κλικ στο `index.html`) και ανεβαίνει αυτούσιο σε GitHub/Netlify.
 
@@ -12,7 +12,10 @@ viotechnia.html            Η Βιοτεχνία (Stage 5, εγκεκριμέν�
 epikoinonia.html           Επικοινωνία (Stage 6, φόρμα Netlify Forms)
 epikoinonia-efcharistoume.html   Σελίδα επιβεβαίωσης φόρμας (noindex)
 politiki-aporritou.html    Πολιτική απορρήτου (Stage 7)
-en/index.html              Αγγλική σελίδα αναμονής (επόμενο στάδιο)
+en/                        Αγγλική έκδοση, 1:1 με τις ελληνικές σελίδες:
+  index.html ↔ index.html · services ↔ ypiresies · production ↔ paragogi · work ↔ dimiourgies
+  about ↔ viotechnia · contact ↔ epikoinonia · contact-thank-you ↔ epikoinonia-efcharistoume
+  privacy-policy ↔ politiki-aporritou · 404 (σερβίρεται για /en/* μέσω _redirects)
 404.html                   Δίγλωσση 404 (σχετικά paths + <base href="/"> εκτός file://: λειτουργεί σε Netlify σε κάθε βάθος URL και τοπικά)
 assets/css/styles.css      Design system (cascade layers: tokens → base → layout → components → motion)
 assets/js/main.js          Μενού, header, nav indicator, count-up, νήμα, ευρετήριο σταδίων, lightbox, φόρμα επικοινωνίας (χωρίς modules)
@@ -22,6 +25,10 @@ _headers, _redirects, robots.txt
 docs/content-status.md     Κείμενα που περιμένουν επιβεβαίωση
 docs/image-credits.md      Προέλευση κάθε φωτογραφίας
 ```
+
+## Γλώσσες
+Το GR/EN στο header οδηγεί στην αντίστοιχη σελίδα της άλλης γλώσσας (όχι στην αρχική). Κάθε σελίδα έχει `<link rel="alternate" hreflang>` προς το ζεύγος της.
+Η αγγλική φόρμα χρησιμοποιεί την ίδια Netlify φόρμα `aitima` με `glossa=en` και στέλνει στο `/en/contact-thank-you.html`.
 
 ## Τοπικό άνοιγμα
 Διπλό κλικ στο `index.html`. Όλα τα links είναι σχετικά και γράφονται με `.html`.

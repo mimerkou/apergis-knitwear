@@ -279,8 +279,11 @@
   .cta-band .h2 i { color: #F4DCC4; }
   .cta-band__row { display: flex; justify-content: space-between; align-items: center; gap: 24px 40px; flex-wrap: wrap; }
   .cta-band p { color: #fff; max-width: 52ch; } /* audit: was #F6E6D8 at 4.0:1, now white at 4.87:1 */
-  .cta-band .btn { color: #fff; --bd: rgba(255,255,255,.75); --fill: #fff; --on: var(--clay-d); }
+  .cta-band .btn { color: #fff; --bd: rgba(255,255,255,.75); --fill: #fff; --on: var(--clay); }
   .cta-band .btn--solid { background: #fff; color: var(--clay-d); --bd: #fff; --fill: var(--char); --on: #fff; }
+  /* Hover: the base colour rules above outrank .btn:hover, so restate it here.
+     Solid: white text + arrow on the dark fill. Phone: the band colour (clay) on the white fill. */
+  .cta-band .btn:hover, .cta-band .btn:focus-visible { color: var(--on); }
   .cta-band .tel { font-variant-numeric: lining-nums; }
 
   /* ---------- Page hero (inner / stub pages) ---------- */
