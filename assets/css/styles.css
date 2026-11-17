@@ -830,9 +830,9 @@
 
   .ct-type { border: 0; padding: 0; margin: 30px 0 0; }
   .ct-opts { display: grid; gap: 8px; }
-  .ct-opt { position: relative; display: grid; grid-template-columns: minmax(0, 13.5em) minmax(0, 1fr); align-items: baseline; gap: 4px 20px; padding: 15px 18px 15px 50px; border: 1.5px solid var(--line); border-radius: 6px; background: var(--ecru); cursor: pointer; transition: border-color .3s, background .3s, box-shadow .3s; }
+  .ct-opt { position: relative; display: grid; grid-template-columns: minmax(0, 13.5em) minmax(0, 1fr); align-items: center; gap: 4px 20px; padding: 15px 18px 15px 50px; border: 1.5px solid var(--line); border-radius: 6px; background: var(--ecru); cursor: pointer; transition: border-color .3s, background .3s, box-shadow .3s; }
   .ct-opt:hover { border-color: var(--camel); }
-  .ct-opt input { position: absolute; left: 18px; top: 19px; width: 18px; height: 18px; margin: 0; accent-color: var(--clay); }
+  .ct-opt input { position: absolute; left: 18px; top: 50%; transform: translateY(-50%); width: 18px; height: 18px; margin: 0; accent-color: var(--clay); }
   .ct-opt input:focus-visible { outline: none; }
   .ct-opt:has(input:focus-visible) { outline: 2px solid var(--clay); outline-offset: 3px; }
   .ct-opt:has(input:checked) { border-color: var(--char); background: #fff; box-shadow: inset 0 0 0 1px var(--char); }
@@ -876,7 +876,7 @@
   .ct-mail { overflow-wrap: anywhere; }
   .ct-map { display: inline-block; margin-top: 10px; font: 600 14px/1.4 var(--sans); }
 
-  @media (max-width: 600px) { .ct-opt { grid-template-columns: 1fr; gap: 2px; padding-block: 14px 15px; } .ct-opt input { top: 17px; } }
+  @media (max-width: 600px) { .ct-opt { grid-template-columns: 1fr; align-items: start; gap: 2px; padding-block: 14px 15px; } .ct-opt input { top: 17px; transform: none; } }
   @media (max-width: 960px) {
     .ct { grid-template-columns: 1fr; }
     .ct-aside { position: static; }
