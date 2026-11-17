@@ -26,7 +26,7 @@
 | paragogi/apergis-paragogi-anagnosi-chromata | telikes/IMG_5308.jpg | Canon EOS 6D, 2021 | Εικ. 2 |
 | paragogi/apergis-paragogi-yfi-* | telikes/IMG_5748, 5593, 5300, 5842 (crop + ολόκληρο) | Canon EOS 6D, 2021 | Ζεύγη υφής |
 | paragogi/apergis-paragogi-leptomereia-* | telikes/IMG_5603, 5649, 5605, 4954 (crop) | Canon EOS 6D, 2021 | Λεπτομέρειες κατασκευής |
-| dimiourgies/apergis-lefkoma-* (12 αρχεία) | telikes/IMG_4626, 5253, 4721, 5671, 5910, 4782, 5739, 4661, 5103, 4915, 5021, 5176 (ολόκληρα κάδρα, crop μέσω CSS) | Canon EOS 6D, 2021 | Καμπάνια Nitho, χωρίς λογότυπα. Η 4782 (full-bleed) είναι 1620 px: ελαφρώς μαλακή σε μεγάλες οθόνες retina |
+| dimiourgies/apergis-lefkoma-* (12 αρχεία) | telikes/IMG_4626, 5253, 4721, 5671, 5910, 4782, 5739, 4661, 5103, 4915, 5021, 5176 (ολόκληρα κάδρα, crop μέσω CSS) | Canon EOS 6D, 2021 | Καμπάνια Nitho, χωρίς λογότυπα. Η 4782 (full-bleed) είναι 1620 px: ελαφρώς μαλακή σε μεγάλες οθόνες retina. **17/11/2026:** και οι 12 αντικαταστάθηκαν με νέες εκδοχές από τον πελάτη (ίδια ρούχα/σκηνικά, άλλο πρόσωπο μοντέλου)· 11 σε 4:5, η full-bleed σε 1536×1024 |
 | viotechnia/apergis-viotechnia-mixani | Εικόνα από τον πελάτη (6/11/2026, 2576×2539), τετράγωνο crop | — | Πλεκτομηχανή Steiger Aries στο εργαστήριο. Πραγματικός χώρος |
 | og/apergis-og-el.jpg | other/20261102_211605.jpg | Samsung, 2026 | Εικόνα κοινοποίησης 1200×630 |
 
