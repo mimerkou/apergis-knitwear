@@ -1,0 +1,6 @@
+# PREVIEW: blocks all crawlers. At launch replace with:
+#   User-agent: *
+#   Allow: /
+#   Sitemap: https://<domain>/sitemap.xml
+User-agent: *
+Disallow: /

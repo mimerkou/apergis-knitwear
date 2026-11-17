@@ -1,0 +1,11 @@
+# Netlify redirects · NOT active yet.
+# Used only when this build replaces the current live site (separate approval).
+# Old URL                 New URL                  Status
+# /about                  /viotechnia              301
+# /services               /ypiresies               301
+# /process                /paragogi                301
+# /yarns                  /paragogi#nimata         301
+# /nitho                  /dimiourgies             301
+# /contact                /epikoinonia             301
+# /privacy                /politiki-aporritou      301
+# /*-en                   /en/:splat               301   (to be mapped per page)
